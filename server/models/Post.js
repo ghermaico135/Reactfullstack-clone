@@ -15,5 +15,13 @@ module.exports = (sequelize, DataTypes) =>{
             allowNull: false,
         },
     });
+// one to many associate of foreign key and primary key
+
+Posts.associate = (models) => {
+    Posts.hasMany(models.Comments, {
+        onDelete : "cascade"
+    })
+}
+
     return Posts
 }

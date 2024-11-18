@@ -24,7 +24,6 @@ function CreatePost() {
             navigate("/")
         })
       
-  
     }
 
  
