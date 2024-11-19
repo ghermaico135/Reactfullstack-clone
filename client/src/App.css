@@ -11,7 +11,8 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .post {
@@ -247,4 +248,15 @@ button {
   border: 1px solid lightgray;
   border-radius: 5px;
   margin-top: 20px;
+
 }
+
+
+
+
+
+
+
+
+
+

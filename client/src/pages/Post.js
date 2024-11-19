@@ -44,7 +44,7 @@ function Post() {
           <div className="listOfComments">
             {comments.map((comment,key)=>{
                 return(
-                  <div className="comments" key={key}>{comment.comment}</div>
+                  <div className="comment" key={key}>{comment.comment}</div>
                 )
               })
             }
